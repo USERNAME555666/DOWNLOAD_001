@@ -1,1 +1,886 @@
-g
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       body {
+        background-image: url("file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/IMG_20180531_192311s.jpg");
+        background-size: 1450px;
+        margin: 30px;
+       }
+
+       #title {
+          background-color: black;
+          color: red;
+          border: 2px solid red;
+          border-radius: 5px;
+          box-shadow: 0px 0px 10px red;
+          padding: 10px;
+       }
+
+       #PDFpage {
+         background-color: black;
+         color: red;
+         width: 1300px;
+         height: 7800px;
+         border: 2px solid red;
+         border-radius: 5px;
+         box-shadow: 0px 0px 10px red;
+       }
+
+       #IMGpage {
+            background-color: black;
+            color: red;
+            width: 1300px;
+            height: 200px;
+            border: 2px solid red;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px red;
+
+       }
+
+       footer {
+          color: red;
+          background-color: black;
+          border: 2px solid red;
+          border-radius: 5px;
+          padding: 10px;
+          box-shadow: 0px 0px 10px red;
+          text-align: center;
+       }
+
+       button {
+          background-color: red;
+          padding: 5px;
+       }
+
+       button:hover {
+                background-color: black;
+                color: red;
+       }
+
+       #post1 {
+          background-color: red;
+          position: absolute;
+          top: 250px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post2 {
+          background-color: red;
+          position: absolute;
+          top: 250px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post3 {
+          background-color: red;
+          position: absolute;
+          top: 250px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post4 {
+          background-color: red;
+          position: absolute;
+          top: 700px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post5 {
+          background-color: red;
+          position: absolute;
+          top: 700px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post6 {
+          background-color: red;
+          position: absolute;
+          top: 700px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post7 {
+          background-color: red;
+          position: absolute;
+          top: 1150px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post8 {
+          background-color: red;
+          position: absolute;
+          top: 1150px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post9 {
+          background-color: red;
+          position: absolute;
+          top: 1150px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post10 {
+          background-color: red;
+          position: absolute;
+          top: 1600px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post11 {
+          background-color: red;
+          position: absolute;
+          top: 1600px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post12 {
+          background-color: red;
+          position: absolute;
+          top: 1600px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post13 {
+          background-color: red;
+          position: absolute;
+          top: 2050px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post14 {
+          background-color: red;
+          position: absolute;
+          top: 2050px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post15 {
+          background-color: red;
+          position: absolute;
+          top: 2050px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post16 {
+          background-color: red;
+          position: absolute;
+          top: 2500px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post17 {
+          background-color: red;
+          position: absolute;
+          top: 2500px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+
+       #post18 {
+          background-color: red;
+          position: absolute;
+          top: 2500px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post19 {
+          background-color: red;
+          position: absolute;
+          top: 2950px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post20 {
+          background-color: red;
+          position: absolute;
+          top: 2950px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post21 {
+          background-color: red;
+          position: absolute;
+          top: 2950px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post22 {
+          background-color: red;
+          position: absolute;
+          top: 3400px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post23 {
+          background-color: red;
+          position: absolute;
+          top: 3400px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post24 {
+          background-color: red;
+          position: absolute;
+          top: 3400px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post25 {
+          background-color: red;
+          position: absolute;
+          top: 3850px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post26 {
+          background-color: red;
+          position: absolute;
+          top: 3850px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post27 {
+          background-color: red;
+          position: absolute;
+          top: 3850px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post28 {
+          background-color: red;
+          position: absolute;
+          top: 4300px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post29 {
+          background-color: red;
+          position: absolute;
+          top: 4300px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post30 {
+          background-color: red;
+          position: absolute;
+          top: 4300px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post31 {
+          background-color: red;
+          position: absolute;
+          top: 4750px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post32 {
+          background-color: red;
+          position: absolute;
+          top: 4750px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post33 {
+          background-color: red;
+          position: absolute;
+          top: 4750px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post34 {
+          background-color: red;
+          position: absolute;
+          top: 5200px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post35 {
+          background-color: red;
+          position: absolute;
+          top: 5200px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post36 {
+          background-color: red;
+          position: absolute;
+          top: 5200px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post37 {
+          background-color: red;
+          position: absolute;
+          top: 5650px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post38 {
+          background-color: red;
+          position: absolute;
+          top: 5650px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post39 {
+          background-color: red;
+          position: absolute;
+          top: 5650px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post40 {
+          background-color: red;
+          position: absolute;
+          top: 6110px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post41 {
+          background-color: red;
+          position: absolute;
+          top: 6110px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post42 {
+          background-color: red;
+          position: absolute;
+          top: 6110px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post43 {
+          background-color: red;
+          position: absolute;
+          top: 6560px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post44 {
+          background-color: red;
+          position: absolute;
+          top: 6560px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post45 {
+          background-color: red;
+          position: absolute;
+          top: 6560px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post46 {
+          background-color: red;
+          position: absolute;
+          top: 7020px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post47 {
+          background-color: red;
+          position: absolute;
+          top: 7020px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post48 {
+          background-color: red;
+          position: absolute;
+          top: 7020px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post49 {
+          background-color: red;
+          position: absolute;
+          top: 7480px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post50 {
+          background-color: red;
+          position: absolute;
+          top: 7480px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+    </style>
+  </head>
+  <body>
+    <div id="title">
+     <h1>DOWNLOAD</h1>
+    </div>
+
+    <br>
+
+    <div id="PDFpage">
+     <h1 style="text-align: center; background-color: red; color: black; border-radius: 5px; position: absolute; top: 135px; left: 30px; width: 1284px; padding: 10px;">PDF</h1>
+    </div>
+
+   <div id="post1">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">[0.1]</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post2">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">[0.2]</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post3">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">[0.3]</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post4">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">[0.4]</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post5">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">[0.5]</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post6">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">[0.6]</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post7">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">[0.7]</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post8">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">[0.8]</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post9">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">[0.9]</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post10">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">[0.10]</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post11">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">[0.11]</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post12">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">[0.12]</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post13">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">[0.13]</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post14">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 14</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post15">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 15</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post16">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 16</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post17">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 17</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post18">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 18</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post19">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 19</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post20">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 20</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post21">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 21</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post22">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 22</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post23">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 23</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post24">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 24</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post25">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 25</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post26">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 26</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post27">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 27</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post28">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 28</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post29">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 29</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post30">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 30</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post31">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 31</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post32">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 32</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post33">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 33</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post34">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 34</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post35">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 35</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post36">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 36</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post37">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 37</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post38">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 38</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post39">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 39</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post40">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 40</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post41">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 41</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post42">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 42</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post43">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 43</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post44">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 44</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post45">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 45</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post46">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 46</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post47">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 47</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post48">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 48</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post49">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 49</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <div id="post50">
+    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <h2 style="text-align: center;">Title of post 50</h2>
+   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   </div>
+
+   <br>
+   <br>
+
+   <div id="IMGpage">
+    <h1 style="text-align: center; background-color: red; color: black; border-radius: 5px; position: absolute; top: 7979px; left: 30px; width: 1284px; padding: 10px;">IMG</h1>
+   </div>
+
+   <br>
+
+    <footer>&copy; Download June 1, 2018 2:44 AM - 3:44 AM</footer>
+  </body>
+</html>
