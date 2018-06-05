@@ -3,7 +3,576 @@
   <head>
       <link rel="stylesheet" type="text/css" href="StyleSheet.css">
     <style>
+       body {
+        background-image: url("Img/IMG_20180531_192311s.jpg");
+        background-size: 1450px;
+        margin: 30px;
+       }
 
+       #title {
+          background-color: black;
+          color: red;
+          border: 2px solid red;
+          border-radius: 5px;
+          box-shadow: 0px 0px 10px red;
+          padding: 10px;
+       }
+
+       #PDFpage {
+         background-color: black;
+         color: red;
+         width: 1300px;
+         height: 7800px;
+         border: 2px solid red;
+         border-radius: 5px;
+         box-shadow: 0px 0px 10px red;
+       }
+
+       #IMGpage {
+            background-color: black;
+            color: red;
+            width: 1300px;
+            height: 200px;
+            border: 2px solid red;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px red;
+
+       }
+
+       footer {
+          color: red;
+          background-color: black;
+          border: 2px solid red;
+          border-radius: 5px;
+          padding: 10px;
+          box-shadow: 0px 0px 10px red;
+          text-align: center;
+       }
+
+      /*The a tag if for the DOWNLOAD buttons*/
+       a {
+       text-decoration: none;
+       color: black;
+       }
+
+       a:hover {
+       color: red;
+       }
+      
+       button {
+          background-color: red;
+          padding: 5px;
+          border: 2px solid black;
+          border-radius: 3px;
+          position: absolute;
+          left: 110px;
+       }
+
+       button:hover {
+                background-color: black;
+                color: red;
+       }
+
+       #post1 {
+          background-color: red;
+          position: absolute;
+          top: 250px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post2 {
+          background-color: red;
+          position: absolute;
+          top: 250px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post3 {
+          background-color: red;
+          position: absolute;
+          top: 250px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post4 {
+          background-color: red;
+          position: absolute;
+          top: 700px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post5 {
+          background-color: red;
+          position: absolute;
+          top: 700px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post6 {
+          background-color: red;
+          position: absolute;
+          top: 700px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post7 {
+          background-color: red;
+          position: absolute;
+          top: 1150px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post8 {
+          background-color: red;
+          position: absolute;
+          top: 1150px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post9 {
+          background-color: red;
+          position: absolute;
+          top: 1150px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post10 {
+          background-color: red;
+          position: absolute;
+          top: 1600px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post11 {
+          background-color: red;
+          position: absolute;
+          top: 1600px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post12 {
+          background-color: red;
+          position: absolute;
+          top: 1600px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post13 {
+          background-color: red;
+          position: absolute;
+          top: 2050px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post14 {
+          background-color: red;
+          position: absolute;
+          top: 2050px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post15 {
+          background-color: red;
+          position: absolute;
+          top: 2050px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post16 {
+          background-color: red;
+          position: absolute;
+          top: 2500px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post17 {
+          background-color: red;
+          position: absolute;
+          top: 2500px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+
+       #post18 {
+          background-color: red;
+          position: absolute;
+          top: 2500px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post19 {
+          background-color: red;
+          position: absolute;
+          top: 2950px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post20 {
+          background-color: red;
+          position: absolute;
+          top: 2950px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post21 {
+          background-color: red;
+          position: absolute;
+          top: 2950px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post22 {
+          background-color: red;
+          position: absolute;
+          top: 3400px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post23 {
+          background-color: red;
+          position: absolute;
+          top: 3400px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post24 {
+          background-color: red;
+          position: absolute;
+          top: 3400px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post25 {
+          background-color: red;
+          position: absolute;
+          top: 3850px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post26 {
+          background-color: red;
+          position: absolute;
+          top: 3850px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post27 {
+          background-color: red;
+          position: absolute;
+          top: 3850px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post28 {
+          background-color: red;
+          position: absolute;
+          top: 4300px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post29 {
+          background-color: red;
+          position: absolute;
+          top: 4300px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post30 {
+          background-color: red;
+          position: absolute;
+          top: 4300px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post31 {
+          background-color: red;
+          position: absolute;
+          top: 4750px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post32 {
+          background-color: red;
+          position: absolute;
+          top: 4750px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post33 {
+          background-color: red;
+          position: absolute;
+          top: 4750px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post34 {
+          background-color: red;
+          position: absolute;
+          top: 5200px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post35 {
+          background-color: red;
+          position: absolute;
+          top: 5200px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post36 {
+          background-color: red;
+          position: absolute;
+          top: 5200px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post37 {
+          background-color: red;
+          position: absolute;
+          top: 5650px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post38 {
+          background-color: red;
+          position: absolute;
+          top: 5650px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post39 {
+          background-color: red;
+          position: absolute;
+          top: 5650px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post40 {
+          background-color: red;
+          position: absolute;
+          top: 6110px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post41 {
+          background-color: red;
+          position: absolute;
+          top: 6110px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post42 {
+          background-color: red;
+          position: absolute;
+          top: 6110px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post43 {
+          background-color: red;
+          position: absolute;
+          top: 6560px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post44 {
+          background-color: red;
+          position: absolute;
+          top: 6560px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post45 {
+          background-color: red;
+          position: absolute;
+          top: 6560px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post46 {
+          background-color: red;
+          position: absolute;
+          top: 7020px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post47 {
+          background-color: red;
+          position: absolute;
+          top: 7020px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post48 {
+          background-color: red;
+          position: absolute;
+          top: 7020px;
+          left: 940px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post49 {
+          background-color: red;
+          position: absolute;
+          top: 7480px;
+          left: 110px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
+
+       #post50 {
+          background-color: red;
+          position: absolute;
+          top: 7480px;
+          left: 522px;
+          width: 300px;
+          height: 420px;
+          border-radius: 10px;
+       }
 
     </style>
   </head>
@@ -31,15 +600,15 @@
    </div>
 
    <div id="post3">
-    <iframe src="https://drive.google.com/file/d/1dObtzMV-U0s1nEBA4G8Yu6IVnkMVPH1b/preview" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;">></iframe>
+    <iframe src="https://drive.google.com/file/d/1yd64kLOFHZzjamNNc4Sgd7nr62dFzBH8/preview" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;">></iframe>
     <h2 style="text-align: center;">[0.3]</h2>
-   <button><a href="https://drive.google.com/uc?export=download&id=1dObtzMV-U0s1nEBA4G8Yu6IVnkMVPH1b">DOWNLOAD</a></button>
+   <button><a href="https://drive.google.com/uc?export=download&id=1yd64kLOFHZzjamNNc4Sgd7nr62dFzBH8">DOWNLOAD</a></button>
    </div>
 
    <div id="post4">
-    <iframe src="https://drive.google.com/file/d/1yd64kLOFHZzjamNNc4Sgd7nr62dFzBH8/preview" style="border-radius: 10px; width: 296px; height: 300px; border: 2px solid red;"></iframe>
+    <iframe src="https://drive.google.com/file/d/1dObtzMV-U0s1nEBA4G8Yu6IVnkMVPH1b/preview" style="border-radius: 10px; width: 296px; height: 300px; border: 2px solid red;"></iframe>
     <h2 style="text-align: center;">[0.4]</h2>
-   <button><a href="https://drive.google.com/uc?export=download&id=1yd64kLOFHZzjamNNc4Sgd7nr62dFzBH8">DOWNLOAD</a></button>
+   <button><a href="https://drive.google.com/uc?export=download&id=1dObtzMV-U0s1nEBA4G8Yu6IVnkMVPH1b">DOWNLOAD</a></button>
    </div>
 
    <div id="post5">
@@ -49,33 +618,33 @@
    </div>
 
    <div id="post6">
-    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <iframe src="https://drive.google.com/file/d/1ffzCVNp3HL3g4UeoHR-6-6lWx9IOhpxm/preview" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
     <h2 style="text-align: center;">[0.6]</h2>
-   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   <button><a href="https://drive.google.com/uc?export=download&id=1ffzCVNp3HL3g4UeoHR-6-6lWx9IOhpxm">DOWNLOAD</a></button>
    </div>
 
    <div id="post7">
-    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <iframe src="https://drive.google.com/file/d/1NE2aBEICmG5Mo1_pQo2nlZbRE0y83eNK/preview" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
     <h2 style="text-align: center;">[0.7]</h2>
-   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   <button><a href="https://drive.google.com/uc?export=download&id=1NE2aBEICmG5Mo1_pQo2nlZbRE0y83eNK">DOWNLOAD</a></button>
    </div>
 
    <div id="post8">
-    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <iframe src="https://drive.google.com/file/d/1DlYUPlBrXuGzc1pXV5IaDrGZQfIm45Ll/preview" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
     <h2 style="text-align: center;">[0.8]</h2>
-   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   <button><a href="https://drive.google.com/uc?export=download&id=1DlYUPlBrXuGzc1pXV5IaDrGZQfIm45Ll">DOWNLOAD</a></button>
    </div>
 
    <div id="post9">
-    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <iframe src="https://drive.google.com/file/d/1Jyuo85B0hWTNe2fmKKeb8zh7ClEo7VFg/preview" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
     <h2 style="text-align: center;">[0.9]</h2>
-   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   <button><a href="https://drive.google.com/uc?export=download&id=1Jyuo85B0hWTNe2fmKKeb8zh7ClEo7VFg">DOWNLOAD</a></button>
    </div>
 
    <div id="post10">
-    <iframe src="file:///home/chronos/u-24132c61e7be728ae4d511709418e479837490d0/Downloads/PDF/html5-game.pdf" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
+    <iframe src="https://drive.google.com/file/d/1kiSwFHM-DAwJX_-iR8mSjo9vYuHtpbeI/preview" style="border-radius: 10px; width: 296px; height: 300px;border: 2px solid red;"></iframe>
     <h2 style="text-align: center;">[0.10]</h2>
-   <button style="border: 2px solid black; border-radius: 3px; position: absolute; left: 110px;">DOWNLOAD</button>
+   <button><a href="https://drive.google.com/uc?export=download&id=1kiSwFHM-DAwJX_-iR8mSjo9vYuHtpbeI">DOWNLOAD</a></button>
    </div>
 
    <div id="post11">
